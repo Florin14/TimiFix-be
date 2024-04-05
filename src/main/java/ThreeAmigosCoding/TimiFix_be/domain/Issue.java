@@ -16,6 +16,7 @@ public class Issue {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer id;
     public Integer userId;
+    public Integer signs;
     public LocalDateTime timeStamp;
     public String description;
 }
