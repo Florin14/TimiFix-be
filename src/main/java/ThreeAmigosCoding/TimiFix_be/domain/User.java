@@ -21,4 +21,5 @@ public class User {
     public Role role;
     public String phoneNumber;
     public LocalDate birthdate;
+
 }
